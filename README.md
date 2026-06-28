@@ -36,7 +36,7 @@ The raw data originally obtained from [Kaggle](https://www.kaggle.com) contained
 ---
 
 ## 📊 Tableau Dashboard Architecture & Modules
-The presentation tier, captured in `Dashboard 1 (1).jpg`, features an executive sleek dark mode layout embedded with quick-glance cross-filtering KPI blocks.
+The presentation tier, captured in `imdb_dashboard_preview.png`, features an executive sleek dark mode layout embedded with quick-glance cross-filtering KPI blocks.
 
 ### 1. Highlight Cards / Dynamic Overview Panel
 * Serves as a dynamic lookup panel reflecting chosen granular values such as *Director* (e.g., Frank Darabont), *Country* (e.g., United States), *Original Title*, *Content Rating*, *Duration*, *Score*, *Votes*, and *Release Year*.
@@ -59,16 +59,32 @@ The presentation tier, captured in `Dashboard 1 (1).jpg`, features an executive 
 
 ---
 
+## 💼 Business Recommendations
+
+**1. Content Acquisition Strategy**
+Streaming platforms and distributors should prioritize acquiring titles within the 8.1–8.6 IMDb score range — this bracket represents the densest concentration of critically validated, high-engagement films and offers the strongest ROI for licensing investments.
+
+**2. Geographic Production Focus**
+With the US accounting for 64% of top-100 films, international studios seeking global distribution appeal should consider US co-production partnerships or align narrative themes with proven Western storytelling frameworks that consistently resonate with global audiences.
+
+**3. Audience Engagement as a Quality Signal**
+The strong alignment between vote counts and high scores suggests that audience engagement (votes) is a reliable early signal of long-term critical reception — useful for greenlight decisions on sequel investments or franchise expansions.
+
+**4. Post-1990 Content Dominance**
+The sharp volume spike in globally acclaimed films after 1990 reflectsa structural shift in cinematic production quality and global distribution infrastructure. For archival or catalog investments, post-1990 titles represent a significantly higher density of elite-rated content.
+
+---
+
 ## 📂 Repository Structure
 * **`messy_IMDB_dataset.xlsx`**: The primary data container holding the original raw and cleansed data worksheets mapping the 11 analytical attributes.
-* **`Dashboard 1 (1).jpg`**: A snapshot export of the finalized Tableau dashboard interface showing layout configurations, themes, and chart elements.
+* **`imdb_dashboard_preview.png`**: A snapshot export of the finalized Tableau dashboard interface showing layout configurations, themes, and chart elements.
 
 ---
 
 ## 🚀 How to Experience the Project
-1. Download the `messy_IMDB_dataset.xlsx` dataset file.
-2. If you have **Tableau Desktop** or **Tableau Public** installed, connect to the Excel sheet to explore or replicate the dashboard visualizations.
-3. Use the structural layout preview (`Dashboard 1 (1).jpg`) to guide your layout designs or present the insights to prospective stakeholders.
+1. Download `IMDB Movie Explorer.twbx`
+2. Open with **Tableau Desktop** or **Tableau Public** (free) — the dashboard will load instantly with all data embedded.
+3. Use the filter panel to explore by Director, Country, Genre, or Content Rating interactively.
 
 ---
 *Developed as part of a Professional Data Analytics Portfolio.*
