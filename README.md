@@ -14,7 +14,7 @@ The core purpose of this project is to unearth structural trends across major mo
 ---
 
 ## 🛠️ Data Pipeline & Preparation
-The raw data originally obtained from [Kaggle](https://www.kaggle.com) contained inconsistencies typical of real-world datasets. Extensive preprocessing was executed within the source file `messy_IMDB_dataset.xlsx` to render the dataset analysis-ready:
+The raw data originally obtained from [Kaggle](https://www.kaggle.com/datasets/davidfuenteherraiz/messy-imdb-dataset) contained inconsistencies typical of real-world datasets. Extensive preprocessing was executed within the source file `messy_IMDB_dataset.xlsx` to render the dataset analysis-ready:
 
 1. **Deduplication & Completeness:** Screened historical entries to delete duplicate records and handled missing data gaps across attributes.
 2. **Text Standardization:** Standardized genres, country names, rating schemas, and stripped leading/trailing spaces across text objects.
